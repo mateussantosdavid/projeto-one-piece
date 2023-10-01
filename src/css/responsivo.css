@@ -15,6 +15,7 @@
         max-width: 100vw;
         padding: 30px;
     }
+
     .conteudo .nome-personagem {
         font-size: 36px;
     }
@@ -35,7 +36,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 410px) {
     main .personagem .imagem {
         height: auto;
     }
@@ -60,5 +61,35 @@
 
     .botoes .botao {
         max-width: 50px;
+    }
+
+
+}
+
+@media (max-width: 391px) {
+    main .personagem .imagem {
+        height: 76%;
+    }
+
+    .conteudo .logo {
+        width: 130px;
+        height: 55px;
+    }
+
+    .conteudo {
+        top: -25%;
+    }
+
+    .conteudo .nome-personagem {
+        font-size: 24px;
+    }
+
+    .botoes {
+        padding: 50px;
+        top: -10%;
+    }
+
+    .botoes .botao {
+        max-width: 70px;
     }
 }
